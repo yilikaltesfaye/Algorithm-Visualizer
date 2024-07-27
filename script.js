@@ -23,7 +23,7 @@ const speedSlider = document.getElementById('speedSlider');
   });
 // Set canvas dimensions
 canvas.width = 800;
-canvas.height = 350;
+canvas.height = 400;
 
 // Array to store bar heights
 let barHeights = [];
@@ -32,7 +32,7 @@ let sortingSpeed = 50; // 1x speed
 // Function to generate random bar heights
 function generateBarHeights() {
 const numBars = 50;
-barHeights = Array.from({ length: numBars }, () => Math.floor(Math.random() * 300) + 50);
+barHeights = Array.from({ length: numBars }, () => Math.floor(Math.random() * 350) + 50);
 }
 
 // Function to draw the bars on the canvas
